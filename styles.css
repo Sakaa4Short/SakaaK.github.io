@@ -1,0 +1,40 @@
+h1 {
+    color: rgb(63, 188, 180);
+    font-size: 55px;
+    
+}
+
+p {
+    background-color: #80cf95;
+    text-align: center;
+    border-style: dotted dashed solid double;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #80cf95;
+}
+
+ol, ul {
+    text-align: left;
+    list-style-position: inside;
+    font-size: 30px;
+    color: chocolate;
+}
+
+footer {
+    text-align: center;
+    color: rgb(215, 95, 9);
+    font-size: medium;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    background
+}
+
+button {
+   align-self: flex-end;
+   padding: 10px;
+}

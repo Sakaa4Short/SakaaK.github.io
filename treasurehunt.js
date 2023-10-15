@@ -1,20 +1,22 @@
- const treasure = () => {
-    return alert('Gold!')
-  }
-  
-const changetoEmoji = (treasure) => {
+var treasurenumber = Math.floor(Math.random() * 9)
+var bombnumber = Math.floor(Math.random() * 9)
+// const treasure = () => {
+//     return alert('Gold!')
+//   }
+  alert("hello")
+const changeToEmoji = (treasure) => {
     if(treasure === treasurenumber) {
         document.getElementById(treasurenumber).innerHTML = "🎁"
     }
-    // else if(treasure === 'bomb'){
-    //     document.getElementById(location).innerHTML = "💣"
-    // }
-    // else if(treasure === 'rainbow'){
-    //     document.getElementById(location).innerHTML = "🌈"
-    // }
-    // return alert
+    else if(treasure === bombnumber){
+        document.getElementById(bombnumber).innerHTML = "💣"
+    }
+    else {
+        document.getElementById(treasure).innerHTML = "🌈"
+    }
   }
+//   var bomb
 
-  var treasurenumber = Math.floor(Math.random() * 9)
 
-  var bomb
+
+
